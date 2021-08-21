@@ -27,7 +27,7 @@ variable "resource_group_name" {
 
 variable "resource_group_location" {
   type = string
-  description = "(Optional) Resouce group location"
+  description = "(Optional) Resource group location"
   default = "westeurope"
 }
 
