@@ -1,24 +1,3 @@
-# Azure authentication
-variable "subscription_id" {
-  type = string
-  description = "(Required) Azure subscription id"
-}
-
-variable "tenant_id" {
-  type = string
-  description = "(Required) Azure tenant id"
-}
-
-variable "client_id" {
-  type = string
-  description = "(Required) Service principal client id"
-}
-
-variable "client_secret" {
-  type = string
-  description = "(Required) Service principal client secret"
-}
-
 # Azure resource group
 variable "resource_group_name" {
   type = string
